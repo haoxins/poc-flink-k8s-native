@@ -15,7 +15,7 @@
 k apply -k argocd
 ```
 
-### Install compoments
+### Install PoC
 
 ```
 k apply -f poc.yaml

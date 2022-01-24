@@ -3,6 +3,7 @@ kind: Kustomization
 
 resources:
 - argocd-applications/argocd.yaml
+- argocd-applications/cert-manager.yaml
 - argocd-applications/dex.yaml
 - argocd-applications/istio-operator.yaml
 - argocd-applications/kiali.yaml

@@ -7,4 +7,5 @@ resources:
 - argocd-applications/dex.yaml
 - argocd-applications/flink-operator.yaml
 - argocd-applications/istio-operator.yaml
+- argocd-applications/istio.yaml
 - argocd-applications/kiali.yaml

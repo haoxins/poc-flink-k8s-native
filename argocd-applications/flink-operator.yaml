@@ -11,7 +11,7 @@ spec:
     path: helm-chart/flink-operator
     helm:
       parameters:
-      - name: flinkOperatorNamespace
+      - name: flinkOperatorNamespace.name
         value: flink-operator
   destination:
     server: https://kubernetes.default.svc

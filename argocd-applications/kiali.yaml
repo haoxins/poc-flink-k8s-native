@@ -11,6 +11,8 @@ spec:
     chart: kiali-operator
     helm:
       parameters:
+      - name: fullnameOverride
+        value: kiali
       - name: cr.create
         value: "true"
       - name: cr.namespace

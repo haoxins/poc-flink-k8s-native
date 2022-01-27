@@ -6,9 +6,13 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/haoxins/poc-flink-k8s-native.git
-    targetRevision: main
-    path: flink-operator
+    repoURL: https://github.com/spotify/flink-on-k8s-operator
+    targetRevision: v0.3.8
+    path: helm-chart/flink-operator
+    helm:
+      parameters:
+      # - name: flinkOperatorNamespace
+      #   value: flink-operator
   destination:
     server: https://kubernetes.default.svc
     namespace: flink-operator

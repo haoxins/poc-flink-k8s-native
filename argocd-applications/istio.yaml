@@ -6,6 +6,7 @@ metadata:
 spec:
   project: default
   source:
+    repoURL: https://github.com/haoxins/poc-flink-k8s-native.git
     targetRevision: main
     path: istio
   destination:

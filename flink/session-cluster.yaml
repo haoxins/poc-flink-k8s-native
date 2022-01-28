@@ -5,7 +5,7 @@ metadata:
 spec:
   flinkVersion: "1.14"
   image:
-    name: flink:1.14.2
+    name: flink:1.14.3
     pullPolicy: Always
   jobManager:
     accessScope: Cluster

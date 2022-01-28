@@ -9,8 +9,8 @@ spec:
     chart: dex
     helm:
       parameters:
-      - name: configSecret.create
-        value: "false"
+      # - name: configSecret.create
+      #   value: "false"
       - name: configSecret.name
         value: dex-config
     repoURL: https://charts.dexidp.io

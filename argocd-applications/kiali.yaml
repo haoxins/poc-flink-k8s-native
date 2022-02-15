@@ -13,7 +13,7 @@ spec:
       parameters:
       # Start - Fix
       - name: fullnameOverride
-        value: kiali-operator
+        value: kiali
       # End
       - name: cr.create
         value: "true"

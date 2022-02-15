@@ -6,8 +6,6 @@
 
 * [Argo CD](https://github.com/argoproj/argo-cd)
 * [Istio](https://github.com/istio/istio)
-  - [oidc-filter](https://github.com/dgn/oidc-filter)
-* [Dex](https://github.com/dexidp/dex)
 
 ### Install Argo CD
 

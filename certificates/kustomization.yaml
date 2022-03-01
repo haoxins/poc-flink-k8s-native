@@ -4,4 +4,4 @@ kind: Kustomization
 namespace: flink-operator
 
 resources:
-- https://github.com/spotify/flink-on-k8s-operator/config/certmanager?ref=v0.4.0-beta.1
+- https://github.com/haoxins/spotify-flink-operator

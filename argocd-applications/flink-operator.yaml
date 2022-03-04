@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/haoxins/spotify-flink-operator
-    targetRevision: fix-job-spec-nil
+    repoURL: https://github.com/spotify/flink-on-k8s-operator
+    targetRevision: v0.4.0-beta.1
     path: helm-chart/flink-operator
     helm:
       parameters:

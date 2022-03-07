@@ -11,3 +11,4 @@ resources:
 # Istio
 - argocd-applications/istio-operator.yaml
 - argocd-applications/istio.yaml
+- argocd-applications/istio-resources.yaml

@@ -15,12 +15,18 @@ spec:
     ports:
       ui: 8081
     resources:
+      requests:
+        memory: 1024Mi
+        cpu: 500m
       limits:
         memory: 2048Mi
         cpu: 1000m
   taskManager:
     replicas: 1
     resources:
+      requests:
+        memory: 1024Mi
+        cpu: 500m
       limits:
         memory: 2048Mi
         cpu: 1000m

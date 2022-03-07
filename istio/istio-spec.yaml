@@ -18,10 +18,12 @@ spec:
     # extensionProviders:
   components:
     ingressGateways:
-    - name: istio-ingressgateway
+    - enabled: true
+      name: istio-ingressgateway
       k8s:
         service:
           type: LoadBalancer
+          externalTrafficPolicy: Local
     egressGateways:
     - enabled: false
       name: istio-egressgateway

@@ -1,0 +1,21 @@
+apiVersion: networking.istio.io/v1beta1
+kind: VirtualService
+metadata:
+  name: flink-ui
+spec:
+  gateways:
+  - flink-gateway
+  hosts:
+  - "*"
+  http:
+  - match:
+    - uri:
+        prefix: /
+    rewrite:
+      uri: /
+    route:
+    - destination:
+        # TODO: dynamic
+        host: test-1-jobmanager.flink-system.svc.cluster.local
+        port:
+          number: 8081

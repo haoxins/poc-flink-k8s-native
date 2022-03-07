@@ -4,3 +4,4 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - session-cluster-1.yaml
+- virtual-service.yaml

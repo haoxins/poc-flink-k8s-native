@@ -4,4 +4,4 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - istio-spec.yaml
-- flink-gateway.yaml
+# - flink-gateway.yaml

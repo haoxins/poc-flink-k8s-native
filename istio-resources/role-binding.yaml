@@ -1,11 +1,11 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: istio-role-binding
+  name: istio-cluster-role-binding
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
-  name: istio-role
+  name: istio-cluster-role
 subjects:
 - kind: ServiceAccount
   namespace: istio-system

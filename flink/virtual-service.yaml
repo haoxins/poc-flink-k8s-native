@@ -9,13 +9,10 @@ spec:
   - "*"
   http:
   # TODO: dynamic
+  # every session cluster has a host, such as
+  # test-1.flink.io
   - route:
     - destination:
         host: test-1-jobmanager.flink-system.svc.cluster.local
         port:
           number: 8081
-    match:
-    - uri:
-        prefix: /test-1
-    rewrite:
-      uri: /

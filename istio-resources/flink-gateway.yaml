@@ -14,14 +14,4 @@ spec:
       name: http
       protocol: HTTP
     tls:
-      httpsRedirect: false # TODO
-  # TODO
-  # - hosts:
-  #   - "*"
-  #   port:
-  #     number: 443
-  #     name: https
-  #     protocol: HTTPS
-  #   tls:
-  #     mode: SIMPLE
-  #     credentialName: TODO
+      httpsRedirect: false

@@ -8,14 +8,14 @@ spec:
   hosts:
   - "*"
   http:
-  - match:
-    - uri:
-        prefix: /test-1
-    rewrite:
-      uri: /
-    route:
+  # TODO: dynamic
+  - route:
     - destination:
-        # TODO: dynamic
         host: test-1-jobmanager.flink-system.svc.cluster.local
         port:
           number: 8081
+    # match:
+    # - uri:
+    #     prefix: /test-1
+    # rewrite:
+    #   uri: /

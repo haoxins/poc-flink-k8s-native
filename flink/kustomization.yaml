@@ -3,5 +3,7 @@ kind: Kustomization
 
 resources:
 - namespace.yaml
+- role.yaml
+- role-binding.yaml
 - virtual-service.yaml
 - session-cluster-1.yaml

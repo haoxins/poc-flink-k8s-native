@@ -14,8 +14,8 @@ spec:
         host: test-1-jobmanager.flink-system.svc.cluster.local
         port:
           number: 8081
-    # match:
-    # - uri:
-    #     prefix: /test-1
-    # rewrite:
-    #   uri: /
+    match:
+    - uri:
+        prefix: /test-1
+    rewrite:
+      uri: /

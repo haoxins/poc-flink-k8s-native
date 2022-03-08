@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: flink-system
   labels:
-    istio-injection: disabled
+    istio-injection: enabled

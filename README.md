@@ -1,8 +1,8 @@
 
 ## PoC: K8s native Flink cluster deployment and job management
 
+* [apache/flink-kubernetes-operator](https://github.com/apache/flink-kubernetes-operator)
 * [Argo CD](https://github.com/argoproj/argo-cd)
-* [spotify/flink-on-k8s-operator](https://github.com/spotify/flink-on-k8s-operator)
 * [Istio](https://github.com/istio/istio)
 
 ### Install Argo CD

@@ -17,7 +17,7 @@ spec:
         value: ghcr.io/spotify/flink-operator:v0.3.9
   destination:
     server: https://kubernetes.default.svc
-    namespace: flink-operator
+    namespace: spotify-flink-operator
   syncPolicy:
     automated:
       prune: true

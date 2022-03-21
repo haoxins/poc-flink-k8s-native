@@ -7,7 +7,7 @@ resources:
 - argocd-applications/certificates.yaml
 # Flink
 - argocd-applications/spotify-flink-operator.yaml
-# - argocd-applications/flink-operator.yaml
+- argocd-applications/flink-operator.yaml
 - argocd-applications/flink.yaml
 # Istio
 - argocd-applications/istio-operator.yaml

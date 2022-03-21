@@ -11,8 +11,10 @@ spec:
     path: helm/flink-operator
     helm:
       parameters:
-      - name: operatorNamespace.name
-        value: flink-operator
+      - name: image.repository
+        value: asia.gcr.io/awx-cn-growth/apache-flink-operator
+      - name: image.pullPolicy
+        value: Always
   destination:
     server: https://kubernetes.default.svc
     namespace: flink-operator

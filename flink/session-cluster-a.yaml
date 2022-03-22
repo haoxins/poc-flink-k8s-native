@@ -8,7 +8,7 @@ spec:
   flinkVersion: v1_14
   flinkConfiguration:
     taskmanager.numberOfTaskSlots: "2"
-  serviceAccount: default # flink
+  serviceAccount: flink
   jobManager:
     replicas: 1
     resource:

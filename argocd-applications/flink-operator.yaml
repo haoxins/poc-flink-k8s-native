@@ -15,8 +15,8 @@ spec:
         value: asia.gcr.io/awx-cn-growth/apache-flink-operator
       - name: image.pullPolicy
         value: Always
-      - name: webhook.create
-        value: false
+      # - name: webhook.create
+      #   value: "false"
   destination:
     server: https://kubernetes.default.svc
     namespace: flink-operator

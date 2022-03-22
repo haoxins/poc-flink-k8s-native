@@ -12,6 +12,8 @@ spec:
     helm:
       skipCrds: true
       parameters:
+      - name: watchNamespaces[0]
+        value: flink-system
       - name: image.repository
         value: asia.gcr.io/awx-cn-growth/apache-flink-operator
       - name: image.pullPolicy

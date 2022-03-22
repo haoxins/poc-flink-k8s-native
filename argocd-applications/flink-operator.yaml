@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/apache/flink-kubernetes-operator
-    targetRevision: main
+    repoURL: https://github.com/haoxins/apache-flink-operator
+    targetRevision: fix-com-name
     path: helm/flink-operator
     helm:
       parameters:

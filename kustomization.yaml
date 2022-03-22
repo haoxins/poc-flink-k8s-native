@@ -4,9 +4,7 @@ kind: Kustomization
 resources:
 - argocd-applications/argocd.yaml
 - argocd-applications/cert-manager.yaml
-- argocd-applications/certificates.yaml
 # Flink
-- argocd-applications/spotify-flink-operator.yaml
 - argocd-applications/flink-operator.yaml
 - argocd-applications/flink.yaml
 # Istio

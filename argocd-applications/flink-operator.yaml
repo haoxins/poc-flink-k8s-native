@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/haoxins/apache-flink-operator
-    targetRevision: fix-com-name
+    targetRevision: main
     path: helm/flink-operator
     helm:
       parameters:

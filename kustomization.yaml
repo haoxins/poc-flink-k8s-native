@@ -5,7 +5,8 @@ resources:
 - argocd-applications/argocd.yaml
 - argocd-applications/cert-manager.yaml
 # Flink
-- argocd-applications/flink-operator.yaml
+- argocd-applications/flink-operator-crds.yaml
+- argocd-applications/flink-operator-skip-crds.yaml
 - argocd-applications/flink.yaml
 # Istio
 - argocd-applications/istio-operator.yaml

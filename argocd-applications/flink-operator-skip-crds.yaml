@@ -1,15 +1,16 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: flink-operator
+  name: flink-operator-skip-crds
   namespace: argocd
 spec:
   project: default
   source:
-    repoURL: https://github.com/haoxins/apache-flink-operator
+    repoURL: https://github.com/apache/flink-kubernetes-operator
     targetRevision: main
     path: helm/flink-operator
     helm:
+      skipCrds: true
       parameters:
       - name: image.repository
         value: asia.gcr.io/awx-cn-growth/apache-flink-operator

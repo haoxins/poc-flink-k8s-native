@@ -5,6 +5,9 @@
 * [Argo CD](https://github.com/argoproj/argo-cd)
 * [Istio](https://github.com/istio/istio)
 
+* Why split Flink Operator into two Argo CD applications?
+  - See [here](https://github.com/prometheus-operator/prometheus-operator/issues/4439)
+
 ### Install Argo CD
 
 ```zsh

@@ -13,6 +13,6 @@ spec:
   # test-1.flink.io
   - route:
     - destination:
-        host: session-cluster-a-rest.flink-system.svc.cluster.local
+        host: session-cluster-test-rest.flink-system.svc.cluster.local
         port:
           number: 8081

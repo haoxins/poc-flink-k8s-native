@@ -2,7 +2,7 @@ apiVersion: flink.apache.org/v1alpha1
 kind: FlinkDeployment
 metadata:
   namespace: flink-system
-  name: session-cluster-a
+  name: session-cluster-test
 spec:
   image: flink:1.14.3
   flinkVersion: v1_14

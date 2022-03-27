@@ -18,6 +18,10 @@ spec:
         value: asia.gcr.io/awx-cn-growth/apache-flink-operator
       - name: image.pullPolicy
         value: Always
+      - name: rbac.namespaces[0]
+        value: flink-system
+      - name: rbac.namespaces[1]
+        value: metric-job-operator
       # - name: webhook.create
       #   value: "false"
   destination:

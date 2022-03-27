@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/haoxins/poc-flink-k8s-native.git
     targetRevision: main
-    path: flink
+    path: flink-system
   destination:
     server: https://kubernetes.default.svc
     namespace: flink-system

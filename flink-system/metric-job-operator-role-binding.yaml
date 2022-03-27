@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: flink-operator-role-binding
+  name: metric-job-operator-flink-operator-role-binding
   namespace: metric-job-operator
 roleRef:
   kind: Role
@@ -15,7 +15,7 @@ subjects:
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: flink-role-binding
+  name: metric-job-operator-flink-role-binding
   namespace: metric-job-operator
 roleRef:
   kind: Role

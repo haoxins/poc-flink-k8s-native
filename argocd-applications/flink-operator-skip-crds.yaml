@@ -15,7 +15,9 @@ spec:
       - name: watchNamespaces[0]
         value: flink-system
       - name: image.repository
-        value: ghcr.io/haoxins/flink-operator:main
+        value: ghcr.io/haoxins/flink-operator
+      - name: image.tag
+        value: main
       - name: image.pullPolicy
         value: Always
       # - name: webhook.create

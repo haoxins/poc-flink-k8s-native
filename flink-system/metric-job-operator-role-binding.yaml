@@ -2,7 +2,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: metric-job-operator-flink-operator-role-binding
-  namespace: metric-job-operator
+  namespace: flink-system
 roleRef:
   kind: Role
   name: flink-operator
@@ -16,7 +16,7 @@ apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
   name: metric-job-operator-flink-role-binding
-  namespace: metric-job-operator
+  namespace: flink-system
 roleRef:
   kind: Role
   name: flink

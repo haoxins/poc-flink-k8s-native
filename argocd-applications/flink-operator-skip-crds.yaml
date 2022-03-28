@@ -15,7 +15,7 @@ spec:
       - name: watchNamespaces[0]
         value: flink-system
       - name: image.repository
-        value: asia.gcr.io/awx-cn-growth/apache-flink-operator
+        value: ghcr.io/haoxins/flink-operator:main
       - name: image.pullPolicy
         value: Always
       # - name: webhook.create

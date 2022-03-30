@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/apache/flink-kubernetes-operator
     targetRevision: main
-    path: helm/flink-operator/crds
+    path: helm/flink-kubernetes-operator/crds
   destination:
     server: https://kubernetes.default.svc
   syncPolicy:

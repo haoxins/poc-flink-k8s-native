@@ -17,7 +17,7 @@ spec:
       - name: image.repository
         value: ghcr.io/apache/flink-kubernetes-operator
       - name: image.tag
-        value: 940388a
+        value: 5f8f6a3
       - name: image.pullPolicy
         value: Always
       # - name: webhook.create

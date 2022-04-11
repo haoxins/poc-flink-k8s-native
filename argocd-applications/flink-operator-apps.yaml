@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/apache/flink-kubernetes-operator
-    targetRevision: main
+    repoURL: https://github.com/haoxins/apache-flink-operator
+    targetRevision: release-sessionjob
     path: helm/flink-kubernetes-operator
     helm:
       skipCrds: true
@@ -17,7 +17,7 @@ spec:
       - name: image.repository
         value: ghcr.io/haoxins/apache-flink-operator
       - name: image.tag
-        value: bb55fd0
+        value: 854ddb4
       - name: image.pullPolicy
         value: Always
       # - name: webhook.create

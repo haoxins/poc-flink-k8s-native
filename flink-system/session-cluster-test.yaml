@@ -1,4 +1,4 @@
-apiVersion: flink.apache.org/v1alpha1
+apiVersion: flink.apache.org/v1beta1
 kind: FlinkDeployment
 metadata:
   namespace: flink-system

@@ -4,7 +4,7 @@ metadata:
   namespace: flink-system
   name: session-cluster-test
 spec:
-  image: flink:1.14.4
+  image: flink:1.14
   flinkVersion: v1_14
   flinkConfiguration:
     taskmanager.numberOfTaskSlots: "2"

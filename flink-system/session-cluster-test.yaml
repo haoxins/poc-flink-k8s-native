@@ -7,10 +7,10 @@ spec:
   image: flink:1.14
   flinkVersion: v1_14
   flinkConfiguration:
-    taskmanager.numberOfTaskSlots: "2"
+    taskmanager.numberOfTaskSlots: "1"
   serviceAccount: flink
   jobManager:
-    replicas: 1
+    replicas: 2
     resource:
       memory: "2048m"
       cpu: 1
@@ -26,7 +26,6 @@ spec:
         volumeMounts:
         - mountPath: /tmp
           name: flink-volume
-          subPath: _0
       volumes:
       - name: flink-volume
         emptyDir: {}

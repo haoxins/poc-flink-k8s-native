@@ -6,4 +6,4 @@ resources:
 - gateway.yaml
 - virtual-service.yaml
 - session-cluster-test.yaml
-- metric-job-operator-role-binding.yaml
+- metricjob-operator-role-binding.yaml

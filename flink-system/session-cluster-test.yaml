@@ -18,3 +18,15 @@ spec:
     resource:
       memory: "2048m"
       cpu: 1
+  podTemplate:
+    spec:
+      serviceAccount: flink
+      containers:
+      - name: flink-main-container
+        volumeMounts:
+        - mountPath: /tmp
+          name: flink-volume
+          subPath: _0
+      volumes:
+      - name: flink-volume
+        emptyDir: {}

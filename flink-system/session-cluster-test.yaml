@@ -18,15 +18,15 @@ spec:
     resource:
       memory: "2048m"
       cpu: 1
-  podTemplate:
-    spec:
-      serviceAccount: flink
-      containers:
-      - name: flink-main-container
-        volumeMounts:
-        - mountPath: /data/flink-system
-          name: flink-system-data
-      volumes:
-      - name: flink-system-data
-        persistentVolumeClaim:
-          claimName: flink-system-claim
+  # podTemplate:
+  #   spec:
+  #     serviceAccount: flink
+  #     containers:
+  #     - name: flink-main-container
+  #       volumeMounts:
+  #       - mountPath: /data/flink-system
+  #         name: flink-system-data
+  #     volumes:
+  #     - name: flink-system-data
+  #       persistentVolumeClaim:
+  #         claimName: flink-system-claim

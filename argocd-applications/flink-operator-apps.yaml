@@ -17,7 +17,7 @@ spec:
       - name: image.repository
         value: ghcr.io/haoxins/apache-flink-operator
       - name: image.tag
-        value: 6e1f0e8
+        value: f7ee710
       - name: image.pullPolicy
         value: Always
       # - name: webhook.create

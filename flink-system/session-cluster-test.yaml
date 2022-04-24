@@ -10,7 +10,7 @@ spec:
     taskmanager.numberOfTaskSlots: "1"
   serviceAccount: flink
   jobManager:
-    replicas: 2
+    replicas: 1
     resource:
       memory: "2048m"
       cpu: 1
